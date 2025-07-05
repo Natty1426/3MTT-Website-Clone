@@ -1,0 +1,158 @@
+
+body{
+    margin: 0;
+}
+
+/*Navigation bar*/
+
+.navbar{
+    font-family: helvetica, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:20px;
+    padding-bottom: 28px;
+    margin: 0;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.navlogo{
+    width: 181px;
+    height: 101.4px;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #0E2920;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 30px;
+    transition: 0.7s;
+}
+li a:hover{
+    color: rgba(20, 157, 49, 0.6);
+}
+
+.link{
+    text-decoration: none;
+}
+.login-btn{
+    background-color: #26ab5b;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    padding:12px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.login-btn{
+    cursor: pointer;
+}
+
+/* First page*/
+.first-page{
+    margin-top: 0;
+    background-color: #2d3035;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 100px;
+}
+.content{
+    width: 382px;
+    height: 351px;
+    margin: 20px auto;
+}
+.shaping-future{
+    font-family: Helvetica, sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+
+}
+.first-paragraph{
+    height: 132px;
+    width: 482px;
+    margin: 60px auto 8.5px;
+}
+.first{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.read-more-btn{
+    color: white;
+    background-color: #26ab5b;
+    border: none;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-size: 18.6px;
+    font-weight: 700;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+}
+
+.first-image{
+    height: 426.3px;
+    width: 628px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+/*Second page*/
+.second-page{
+    margin-top: 0;
+    background-color:white;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.second-image{
+    width: 495.5px;
+    height: 517px;
+    margin: 10px;
+    transition: 1s;
+}
+.second-image:hover{
+    width: 446.3px;
+    height: 447px;
+    margin: 9.1px;
+    padding: 24.8px;
+}
+.second-text{
+    width: 515px;
+    height: 517px;
+    margin-right: 10px;
+    margin-left: 41px;
+}
+.second-heading{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    color :rgb(41, 86, 42);
+    padding-top: 100px;
+    margin-top: 10px;
+    
+}
+.second-paragraph{
+    width: 372.5px;
+    height: 264px;
+    text-align: justify;
+}
+.second{
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    line-height: 24px;
+}
