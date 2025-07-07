@@ -14,23 +14,25 @@ body{
 
 .navdiv{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 48px;
     margin: 0;
 }
 .navlogo{
-    width: 100%;
+    width: 80%;
     padding-top: 20px;
 }
 li{
     list-style: none;
-    display: inline-block;
+    display: inline;
+    height: 35vh;
+
 }
 li a{
     color: #0E2920;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 30px;
     transition: 0.5s;
 }
@@ -123,16 +125,15 @@ li a:hover{
     padding-bottom: 50px;
 }
 .second-image{
-    width: 495.5px;
-    height: 517px;
+    width: auto;
+    height: 75vh;
     margin: 10px;
     transition: 1s;
 }
 .second-image:hover{
-    width: 446.3px;
-    height: 447px;
-    margin: 9.1px;
-    padding: 24.8px;
+    width: auto;
+    height: 70vh;
+    margin: 25px;
 }
 .second-text{
     width: 515px;
