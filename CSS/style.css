@@ -105,6 +105,11 @@ li a:hover{
     padding: 20px 40px;
     margin-top: 48px;
     max-width: 385px;
+    cursor: pointer;
+}
+
+.read-more-btn:hover{
+    background-color: #83f3b0;
 }
 
 .first-image{
