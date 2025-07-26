@@ -8,7 +8,7 @@ body{
 
 .navbar{
     width: 100%;
-    height:35vh;
+    height:30vh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -34,7 +34,7 @@ body{
 }
 
 .navlogo{
-    width: 80%;
+    width: 70%;
     padding-top: 20px;
 }
 
@@ -70,7 +70,7 @@ li a:hover{
 
 .navtoggle{
     display:none;
-    background:transparent;
+    background:#26ab5b;
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -81,7 +81,7 @@ li a:hover{
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    background:#0E2920;
+    background:white;
     transition: all 0.3s ease-in-out;
 }
 
@@ -91,7 +91,7 @@ li a:hover{
 
 .first-page{
     background-color: #2d3035;
-    height: 350vh;
+    height: 300vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -151,30 +151,28 @@ li a:hover{
 
 .second-page{
     margin-top: 0;
+    height: 100vh;
     background-color:white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding:50px;
+
 }
 
 .second-image{
-    width: 80%;
-    margin: 10px;
+    width: 100%;
     transition: all 1s ease-in-out;
 }
 
 .second-image:hover{
-    width: 75%;
-    margin: 25px;
+    width: 95%;
 }
 
 .second-text{
     width: 50%;
     height: 517px;
-    margin-right: 80px;
-    margin-left: 41px;
+    margin-right: 10rem;
 }
 
 .second-heading{
@@ -248,5 +246,69 @@ li a:hover{
 .first-page{
     height: 175vh;
 }
+
+.second-page{
+    height: 75vh;
+}
+
+}
+
+@media (max-width: 480px) {
+
+.navlogo{
+     width: 50%;
+}
+
+.navitems{
+    width: 150px;
+}
+
+.shaping-future{
+    font-size: 4rem;
+}
+
+.first-paragraph{
+    width: 90%;
+    margin-bottom: 8px;
+}
+
+.first{
+    font-size: 1rem;
+}
+
+.read-more-btn{
+    margin-top: 12px;
+}
+
+.first-image{
+    width: 100%;
+}
+
+.second-page{
+    flex-direction: column;
+}
+
+.second-text{
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+}
+.second-heading{
+    font-size: 1rem;
+}
+
+.second{
+    font-size: 1rem;
+    height: 2rem;
+}
+
+.second-paragraph{
+    width: 100%;
+}
+
+.second-image{
+    margin-top: 100px;
+}
+  
 
 }
