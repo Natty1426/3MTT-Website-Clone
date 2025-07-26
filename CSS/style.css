@@ -68,6 +68,11 @@ li a:hover{
     background-color: #0E2920;
 }
 
+.navspace{
+    display: none;
+    height: 45vh;
+}
+
 .navtoggle{
     display:none;
     background:#26ab5b;
@@ -211,18 +216,21 @@ li a:hover{
     display: none;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.7rem;
+    gap: 1.2rem;
     position: absolute;
-    height: 50vh;
-    width: 250px;
-    top: 0;
+    height: 30vh;
+    width: 500px;
+    top: 22vh;
     right: 0;
-    padding: 5rem 1.5rem;
-    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.5);
-    backdrop-filter: blur(10px);
+    padding: 3rem 1.5rem;
+    background-color: transparent;
     }
 
 .navitems.active{
+    display: flex;
+}
+
+.navspace.active{
     display: flex;
 }
 
