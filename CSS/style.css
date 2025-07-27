@@ -78,6 +78,7 @@ li a:hover{
     background:#26ab5b;
     padding: 10px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -215,15 +216,15 @@ li a:hover{
 .navitems{
     display: none;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start ;
     gap: 1.2rem;
     position: absolute;
     height: 30vh;
-    width: 500px;
+    width: 460px;
     top: 22vh;
-    right: 0;
+    right:30vh;
     padding: 3rem 1.5rem;
-    background-color: transparent;
+    background-color:transparent;
     }
 
 .navitems.active{
@@ -232,6 +233,7 @@ li a:hover{
 
 .navspace.active{
     display: flex;
+    height: 26vh;
 }
 
 .navtoggle{
@@ -271,6 +273,10 @@ li a:hover{
     width: 150px;
 }
 
+.navspace.active{
+    height: 45vh;
+}
+
 .shaping-future{
     font-size: 4rem;
 }
@@ -294,6 +300,7 @@ li a:hover{
 
 .second-page{
     flex-direction: column;
+    display: none;
 }
 
 .second-text{
