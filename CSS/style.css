@@ -205,6 +205,74 @@ li a:hover{
     line-height: 24px;
 }
 
+/** THIRD PAGE */
+
+.third-page{
+    height: 275vh;
+    background-color:#f8dcad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-page h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: #29562b;
+    text-align: left;
+    width: 50%;
+}
+
+.third-page img{
+    width: 50%;
+}
+
+.third-page p{
+    width: 30%;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    line-height: 24px;
+}
+
+.third-page-first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 12px 0 ;
+}
+
+.third-page-first p{
+    margin-right: 96px;
+}
+
+.third-page-first img{
+    margin-left: 36px;
+    border-radius: 30px;
+}   
+
+.third-page-second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 64px 12px 0 0;
+}
+
+.third-page-second p{
+    margin-left: 96px;
+}
+
+.third-page-second img{
+    margin-right: 36px;
+    border-radius: 30px;
+}  
+
+
+
+/* MEDIA QUERIES */
+
 @media (max-width: 880px){
 
 .navbar{
@@ -260,6 +328,10 @@ li a:hover{
     height: 75vh;
 }
 
+.third-page{
+    height: 125vh;
+
+}
 }
 
 @media (max-width: 480px) {
@@ -330,6 +402,9 @@ li a:hover{
 .second-image{
     margin-top: 100px;
 }
-  
+
+.third-page{
+    display: none;
+}
 
 }
