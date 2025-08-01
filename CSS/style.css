@@ -209,6 +209,7 @@ li a:hover{
 
 .third-page{
     height: 275vh;
+    padding-bottom: 96px;
     background-color:#f8dcad;
     display: flex;
     flex-direction: column;
@@ -224,9 +225,6 @@ li a:hover{
     width: 50%;
 }
 
-.third-page img{
-    width: 50%;
-}
 
 .third-page p{
     width: 30%;
@@ -248,10 +246,15 @@ li a:hover{
     margin-right: 96px;
 }
 
-.third-page-first img{
+.zoomOne{
     margin-left: 36px;
-    border-radius: 30px;
+    width: 50%;
 }   
+
+.zoomOne img{
+    width: 100%;
+    border-radius: 30px;
+}
 
 .third-page-second{
     display: flex;
@@ -264,10 +267,61 @@ li a:hover{
     margin-left: 96px;
 }
 
-.third-page-second img{
+
+.zoom{
+    width: 50%;
     margin-right: 36px;
+} 
+
+.zoom img{
+    width: 100%;
     border-radius: 30px;
-}  
+}
+
+.fourth-page{
+    height: 100vh;
+    background-color:#f2fff6;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 192px 96px;
+    padding-right: 12px;
+}
+
+
+.fourth-page-header h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1px;
+    color: #29562b;
+    text-align: left;
+    width: 50%;
+}
+
+.fourth-page-header p{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.fourth-page-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.fourth-page-lists ul{
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 48px;
+    padding: 0;
+}
+
+.fourth-page-lists li{
+    line-height: 24px;
+    margin-bottom: 28px;
+}
 
 
 
@@ -320,22 +374,49 @@ li a:hover{
     transform: translateY(-8px) rotate(-45deg);
 }
 
+/* First Page */
+
 .first-page{
     height: 150vh;
 }
+
+.first-paragraph{
+    height: 20vh;
+}
+
+.read-more-btn{
+    margin: 0;
+}
+
+/* Second Page */
 
 .second-page{
     height: 75vh;
 }
 
+/* third page */
+
 .third-page{
     height: 125vh;
-
+    
 }
+
+.fourth-page{
+    height: 30vh;
+    padding: 96px 48px;
+}
+
+.fourth-page br{
+    display: none;
+}
+
 }
 
 @media (max-width: 480px) {
 
+    /* Navigation bar */
+
+    
 .navlogo{
      width: 50%;
 }
@@ -348,6 +429,8 @@ li a:hover{
 .navspace.active{
     height: 45vh;
 }
+
+/* First Page */
 
 .first-page{
     height:100vh;
@@ -426,6 +509,11 @@ li a:hover{
 
 .third-page{
     display: none;
+}
+
+.fourth-page{
+    display: none;  
+
 }
 
 }
