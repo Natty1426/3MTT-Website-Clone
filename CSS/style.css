@@ -397,9 +397,25 @@ li a:hover{
 /* third page */
 
 .third-page{
-    height: 125vh;
+    height: 80vh;
+    padding: 84px 8px 84px 24px;
     
 }
+
+.third-page h1{
+    width: 100%;
+}
+
+.third-page p{
+    width: 50%;
+    margin: 0;
+}
+
+.third-page img{
+    border-radius: 12px;
+}
+
+/*Fourth page*/
 
 .fourth-page{
     height: 30vh;
