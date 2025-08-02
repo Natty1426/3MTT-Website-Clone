@@ -165,13 +165,17 @@ li a:hover{
 
 }
 
+.second-image-container{
+    text-align: center;
+}
+
 .second-image{
     width: 100%;
-    transition: all 1s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .second-image:hover{
-    width: 95%;
+    width: 90%;
 }
 
 .second-text{
@@ -278,13 +282,14 @@ li a:hover{
     border-radius: 30px;
 }
 
+/* FOURTH PAGE */
+
 .fourth-page{
     height: 100vh;
     background-color:#f2fff6;
     display: flex;
     flex-direction: column;
-    padding: 96px 192px 96px;
-    padding-right: 12px;
+    padding: 96px 12px 96px 192px;
 }
 
 
@@ -328,6 +333,8 @@ li a:hover{
 /* MEDIA QUERIES */
 
 @media (max-width: 880px){
+
+/* NAVIGATION BAR */
 
 .navbar{
      backdrop-filter: none;
@@ -374,7 +381,7 @@ li a:hover{
     transform: translateY(-8px) rotate(-45deg);
 }
 
-/* First Page */
+/* FIRST PAGE */
 
 .first-page{
     height: 150vh;
@@ -388,13 +395,27 @@ li a:hover{
     margin: 0;
 }
 
-/* Second Page */
-
-.second-page{
-    height: 75vh;
+.first-image{
+    width: 95%;
 }
 
-/* third page */
+/* SECOND PAGE */
+
+.second-page{
+    height: 50vh;
+}
+
+.second-paragraph{
+    width: 100%;
+    text-align: left;
+}
+
+.second-text{
+    width: 130%;
+    height: 100%;
+}
+
+/* THIRD PAGE */
 
 .third-page{
     height: 80vh;
@@ -415,10 +436,10 @@ li a:hover{
     border-radius: 12px;
 }
 
-/*Fourth page*/
+/*FOURTH PAGE*/
 
 .fourth-page{
-    height: 30vh;
+    height: 25vh;
     padding: 96px 48px;
 }
 
@@ -430,7 +451,7 @@ li a:hover{
 
 @media (max-width: 480px) {
 
-    /* Navigation bar */
+/* NAVIGATION BAR */
 
     
 .navlogo{
@@ -446,7 +467,7 @@ li a:hover{
     height: 45vh;
 }
 
-/* First Page */
+/* FIRST PAGE */
 
 .first-page{
     height:100vh;
@@ -481,7 +502,7 @@ li a:hover{
     margin: 0 0 48px 0;
     padding: 12px;
     flex-direction: column;
-    height: 120vh;
+    height: 125vh;
 
 }
 
@@ -522,14 +543,91 @@ li a:hover{
     width: 100%;
 }
 
+/* THIRD PAGE */
 
 .third-page{
+    height: 200vh;
+    padding: 0 24px 24px 24px;
+}
+
+.third-page p{
+    width: 100%;
+    margin-bottom: 36px;
+    font-size: 17px;
+}
+.third-page img{
+    width: 100%;
+    margin: 0;
+}
+
+.third-page-first{
+    flex-direction: column;
+}
+
+.zoomOne{
+    text-align: center;
+    width: 100%;
+    margin-left: 0;
+}   
+
+
+.third-page-second{
+    flex-direction: column;
+}
+
+.third-page-second p{
+    margin-bottom: 0;
+}
+
+.zoom{
+    width: 100%;
+    margin-right: 0;
+    padding-bottom: 48px;
+} 
+
+
+.third-page h1{
+   font-size: 48px;
+}
+
+/* FOURTH PAGE */
+
+.fourth-page{
+    height: 75vh; 
+    padding: 48px; 
+
+}
+
+.fourth-page p{
+    font-size: 15px;
+    line-height: 24px;
+    margin: 24px 0;
+}
+
+.fourth-page-header h2{
+    font-size: 2.4rem;
+    width: 100%;
+
+}
+
+.fourth-page br{
     display: none;
 }
 
-.fourth-page{
-    display: none;  
-
+.fourth-page-lists{
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
+.fourth-page-lists ul{
+    margin-right: 24px;
+    margin: 0;
+}
+
+.fourth-page-lists li{
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 12px;
+}
 }
