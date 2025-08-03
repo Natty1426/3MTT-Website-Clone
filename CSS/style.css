@@ -213,6 +213,7 @@ li a:hover{
 
 .third-page{
     height: 275vh;
+    font-family: Helvetica, sans-serif;
     padding-bottom: 96px;
     background-color:#f8dcad;
     display: flex;
@@ -221,7 +222,6 @@ li a:hover{
 }
 
 .third-page h1{
-    font-family: Helvetica, sans-serif;
     font-size: 52px;
     font-weight: 600;
     color: #29562b;
@@ -232,7 +232,6 @@ li a:hover{
 
 .third-page p{
     width: 30%;
-    font-family: Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: black;
@@ -286,6 +285,7 @@ li a:hover{
 
 .fourth-page{
     height: 100vh;
+    font-family: Helvetica, sans-serif;
     background-color:#f2fff6;
     display: flex;
     flex-direction: column;
@@ -294,7 +294,6 @@ li a:hover{
 
 
 .fourth-page-header h2{
-    font-family: Helvetica, sans-serif;
     font-size: 38px;
     font-weight: 600;
     line-height: 1px;
@@ -304,7 +303,6 @@ li a:hover{
 }
 
 .fourth-page-header p{
-    font-family: Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -328,6 +326,101 @@ li a:hover{
     margin-bottom: 28px;
 }
 
+/* FIFTH PAGE */
+
+.fifth-page{
+    height: 225vh;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    padding-top: 96px;
+    justify-content: center;
+    flex-direction: column;    
+}  
+
+.fifth-page-header{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1px;
+    color: #29562b;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fifth-page-paragraph{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 48px;
+}
+
+.fifth-page-info{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.fifth-page-first, .fifth-page-second{
+    background-color: #f8dcad;
+    width: 20.5%;
+    height: 64%;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+.fifth-page-second{
+    background-color: #f2fff6;
+    margin-left: 24px;
+}
+
+.fifth-page-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fifth-page-text h2{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #29562b;
+    width: 100%;
+    margin: 0;
+}
+
+.fifth-page-text p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.fifth-page-image{
+    width: 100%;
+}
+
+.fifth-page img{
+    width: 100%;
+    padding-bottom: 36px ;
+}
+
+.fifth-page-btn{
+    color: white;
+    background-color: #26ab5b;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px ;
+    width:45%;
+    cursor: pointer;
+}
 
 
 /* MEDIA QUERIES */
@@ -444,6 +537,10 @@ li a:hover{
 }
 
 .fourth-page br{
+    display: none;
+}
+
+.fifth-page{
     display: none;
 }
 
@@ -630,4 +727,9 @@ li a:hover{
     line-height: 18px;
     margin-bottom: 12px;
 }
+
+.fifth-page{
+    display: none;
+}
+
 }
