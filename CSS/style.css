@@ -118,7 +118,7 @@ li a:hover{
 
 }
 .first-paragraph{
-    height: 30vh;
+    height: 25vh;
     width: 70%;
 }
 .first{
@@ -494,7 +494,7 @@ li a:hover{
     padding-top: 0;
 }
 .first-paragraph{
-    height: 20vh;
+    height: 15vh;
     width: 95%;
 }
 
@@ -778,9 +778,41 @@ li a:hover{
     margin-bottom: 12px;
 }
 
+/* FIFTH PAGE */
+
 .fifth-page{
-    display: none;
+    padding: 0;
     height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-page-header{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.fifth-page-paragraph{
+    align-items: center;
+}
+
+.fifth-page-info{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.fifth-page-first, .fifth-page-second{
+    width: 70%;
+    height: 42%;
+    margin-right: 0;
+    display: flex;
+}
+
+.fifth-page-second{
+    margin-top: 36px;
 }
 
 }
